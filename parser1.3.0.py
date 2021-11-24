@@ -210,7 +210,7 @@ def to_openFile():
 def parsing():
 	session = requests.Session()					#Создание сессии
 
-	link = 'http://eos.sfvstu.ru/index.php'			#Ссылка на сайт 
+	link = 'https://eos.sfvstu.ru/index.php'			#Ссылка на сайт 
 	# Объявление заголовков
 	header = {
 		'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/536.30.1 (KHTML, like Gecko) Version/6.0.5 Safari/536.30.1'
